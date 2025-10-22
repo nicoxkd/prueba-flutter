@@ -14,7 +14,7 @@ class Persona {
     if (edad <=0){
       throw ArgumentError('La edad debe ser mayor que 0');
     }
-    return Persona('Persona con edad $edad',edad);
+    return Persona('Persona',edad);
   }
 
   // Metodo que muestra la información de la persona
